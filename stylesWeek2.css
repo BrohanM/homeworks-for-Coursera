@@ -1,0 +1,104 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	margin: 0;
+	padding: 0;
+	font-family: arial; 
+}
+h1 {
+	color: green;
+	font-size: 20px;
+	font-family: times;
+}
+	
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+.row {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.col-lg-4, .col-md-6, .col-md-12, .col-sm-12{
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+ @media (min-width: 768px)
+ { .col-sm-12 {
+ 	float: left;
+ }
+ .col-sm-12 {
+    width: 100%;
+  }
+ }
+ @media (min-width: 992px) {
+ .col-md-6, .col-md-12 {
+    float: left; 
+  }   
+  .col-md-6 {
+    width: 50%;
+  }
+ .col-md-12 {
+  width: 100%;
+ }
+}
+ @media (min-width: 1200px) {
+ .col-lg-4 {
+    float: left; 
+  }
+  .col-lg-4 {
+    width: 31.2%;
+}
+}
+
+.block-header {
+	margin-left: 65%;
+	text-align: center;
+	border-left: 1px solid black;
+	border-bottom: 1px solid black;
+	padding: 10px 0; 
+	background-color: green;
+}
+.block-text {
+	padding: 20px;
+
+}
+.block {
+	border: 1px solid black;
+	padding-right: 0;
+	margin:10px;
+	background-color: #90EE90;
+}
+.text-center {
+	text-align: center;
+	font-size: 40px;
+}
+.text1 {
+	padding: 20px;
+	margin-left: 20px;
+}
+.text2 {
+	padding: 20px;
+	margin-left: 20px;
+}
